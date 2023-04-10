@@ -1,0 +1,66 @@
+#banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.main_bible_word, .suport{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.header img{
+    width: 50px;
+    height: 50px;
+}
+
+.goal{
+    display: flex;
+    width: 75vw;
+    border: 1px solid var(--martus_blue);
+    border-radius: 10px;
+    padding: 2px;
+}
+.goal p{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.suport_title{
+    text-align: center;
+}
+
+.suport {
+    position: relative;
+    z-index: 3;
+    align-items: center;
+}
+
+.main_bible_word p{
+    font-size: 12px;
+}
+
+.suport img{
+    width: 100vw;
+    height: 30vh;
+}
+.suport .sponsorship_account{
+    position: relative;
+    z-index: 10;
+    width: 60vw;
+    bottom: 8vw;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 3px;
+    padding: 2px 3px ;
+    color: white;
+    background-color: black;
+}

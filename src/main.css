@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root{
+    --martus_purple:#181823;
+    --martus_blue:#537fe7;
+    --martus_lightBlue:#c0eef2;
+    --martus_white:#e9f8f9;
+}
+
+body{
+    color: #e9f8f9;
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+}
+
+* p, h1, h2, h3{
+    color: var(--martus_blue);
+}
+
+#main_banner{
+    background-color: #181823;
+}
+
+.main_team{
+    width: 50%;
+    height: 50%;
+}
+@media screen {
+    
+}
