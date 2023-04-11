@@ -7,6 +7,7 @@
     --martus_purple:#114354;
     --martus_blue:#186079;
     --martus_lightBlue:#1f7197;
+    --martus_skyBlue: #1c769F;
     --martus_white:#e9f8f9;
     --font_big:36px;
     --font_medium: 24px;
@@ -27,14 +28,6 @@ body{
     color: var(--martus_blue);
 }
 
-#main_banner{
-    background-color: #181823;
-}
-
-.main_team{
-    width: 50%;
-    height: 50%;
-}
-@media screen {
-    
+i{
+    margin-top: 20px;
 }

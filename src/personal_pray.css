@@ -10,11 +10,12 @@
 
 .personal_pray_card{
     margin: 0 4px;
-    border: 1px solid var(--martus_blue);
+    border: 1px solid var(--martus_skyBlue);
     border-radius: 10px;
     display: flex;
     align-items: center;
-    height: 13vh;
+    padding: 8px 0;
+    margin: 5px 3px;
 }
 
 .aside {
@@ -26,16 +27,21 @@
     align-items: center;
     justify-content: space-between;
 }
+
 img{
-    height: 50px;
-    width: 50px;
+    height: 70%;
+    width: 70%;
     margin-bottom: 3px;
+}
+
+li, p{
+    color: var(--martus_purple);
 }
 
 .info_box{
     display: flex;
     justify-content: center;
-    background-color: var(--martus_blue);
+    background-color: var(--martus_skyBlue);
     width: 85%;
     border-radius: 3px;
     margin-bottom: 3px;
@@ -50,6 +56,7 @@ img{
 }
 
 .name{
+    color: var(--martus_purple);
     font-size: 12px;
 }
 
@@ -58,10 +65,10 @@ img{
 }
 
 article {
-    grid-area: content;
+    width: 70vw;
 }
 
-article p{
+article p, ol{
     flex-wrap: wrap;
     padding-left: 5px;
     margin-bottom: 3px;
@@ -70,12 +77,23 @@ article p{
 .promise, .pray_topic{
     font-size: 9px;
 }
+
+.pray_topic ol{
+    padding-left: 5%;
+}
+
+.pray_topic li{
+    font-family: 'GangwonEdu_OTFBoldA';
+    margin-bottom: 5px;
+}
+
 .promise{
     margin-bottom: 4px;
 }
+
 .box{
     width: 13vw;
-    background-color: var(--martus_blue);
+    background-color: var(--martus_skyBlue);
     border-radius: 3px;
     margin: 2px 0 3px 0;
     padding: 0.6px 0.6px 0.6px 0;
@@ -84,14 +102,11 @@ article p{
 .title{
     padding: 1px 0 1px 3px;
     position: sticky;
+    color: var(--martus_skyBlue);
     border-bottom-right-radius: 3px;
     border-top-right-radius: 3px;
     left: 100%;
     width: 11vw;
     font-family: 'SDSamliphopangche_Outline';
     background-color: white;
-}
-
-.pray_topic p{
-    font-family: 'GangwonEdu_OTFBoldA';
 }
