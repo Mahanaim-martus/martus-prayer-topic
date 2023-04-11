@@ -14,18 +14,84 @@
     border-radius: 10px;
     display: flex;
     align-items: center;
-    height: 400px;
+    height: 13vh;
 }
 
-aside {
-    display: grid;
-    flex-direction: column;
+.aside {
+    /* display: grid;
     grid-area: sidebar;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-rows: 3;
+    grid-template-rows: 4fr 1fr 1fr; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+img{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 3px;
+}
+
+.info_box{
+    display: flex;
+    justify-content: center;
+    background-color: var(--martus_blue);
+    width: 85%;
+    border-radius: 3px;
+    margin-bottom: 3px;
+    padding: 0.5px 0;
+}
+
+.name , .id{
+    text-align: center;
+    background-color: white;
+    width: 80%;
+    padding: 1px 2px;
+}
+
+.name{
+    font-size: 12px;
+}
+
+.id{
+    font-size: 9px;
 }
 
 article {
-    
     grid-area: content;
+}
+
+article p{
+    flex-wrap: wrap;
+    padding-left: 5px;
+    margin-bottom: 3px;
+}
+
+.promise, .pray_topic{
+    font-size: 9px;
+}
+.promise{
+    margin-bottom: 4px;
+}
+.box{
+    width: 13vw;
+    background-color: var(--martus_blue);
+    border-radius: 3px;
+    margin: 2px 0 3px 0;
+    padding: 0.6px 0.6px 0.6px 0;
+}
+
+.title{
+    padding: 1px 0 1px 3px;
+    position: sticky;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    left: 100%;
+    width: 11vw;
+    font-family: 'SDSamliphopangche_Outline';
+    background-color: white;
+}
+
+.pray_topic p{
+    font-family: 'GangwonEdu_OTFBoldA';
 }

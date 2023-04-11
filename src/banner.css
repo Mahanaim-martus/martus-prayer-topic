@@ -14,51 +14,95 @@
 .header{
     display: flex;
     align-items: center;
-    margin-top: 50px;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    height: 13vh;
+    width: 100vw;
+    background: linear-gradient(#2babe2 ,white);
 }
 
 .header img{
-    width: 50px;
-    height: 50px;
+    width: 42px;
+    height: 42px;
 }
 
-.goal{
-    display: flex;
-    width: 75vw;
-    border: 1px solid var(--martus_blue);
-    border-radius: 10px;
-    padding: 2px;
+.header h2{
+    color: var(--martus_purple);
+    font-size: 17px;
+    padding-left: 7px;
 }
+
+.goal_box, .goal{
+    display: flex;
+    align-items: center;
+}
+
+.goal_box{
+    justify-content: center;
+    position: relative;
+    width: 70vw;
+    background-color: var(--martus_blue);
+    border-radius: 3px;
+}
+.goal{
+    justify-content: space-around;
+    padding: 2px 0;
+    margin: 1px 0;
+    width: 65vw;
+    background-color: white;
+}
+
 .goal p{
-    font-size: 16px;
-    font-weight: 700;
+    font-size: var(--font_Small_medium);
+    color: var(--martus_purple);
+}
+.fa-solid{
+    padding-top: 5px;
 }
 
 .suport_title{
+    font-family: 'ghanachoco';
     text-align: center;
+    font-size: 39px;
+    font-weight: 700;
+    color: var(--martus_purple);
+}
+
+.suport_title:first-child{
+    padding: 15px 0 10px 0;
 }
 
 .suport {
-    position: relative;
-    z-index: 3;
     align-items: center;
 }
 
 .main_bible_word p{
-    font-size: 12px;
+    font-family: 'Cafe24Oneprettynight';
+    font-size: var(--font_small);
+    font-weight: 200;
+}
+
+.main_bible_word p:first-child{
+    padding-top: 25px;
+    padding-bottom: 7px;
+}
+
+.main_bible_word p:last-child{
+    font-size: var(--font_very_small);
 }
 
 .suport img{
     width: 100vw;
-    height: 30vh;
+    height: 32vh;
 }
 .suport .sponsorship_account{
     position: relative;
     z-index: 10;
-    width: 60vw;
-    bottom: 8vw;
+    width: 70vw;
+    bottom: 10vw;
     text-align: center;
-    font-size: 12px;
+    font-size: var(--font_Small_medium);
     border-radius: 3px;
     padding: 2px 3px ;
     color: white;

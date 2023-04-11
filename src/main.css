@@ -4,20 +4,26 @@
 }
 
 :root{
-    --martus_purple:#181823;
-    --martus_blue:#537fe7;
-    --martus_lightBlue:#c0eef2;
+    --martus_purple:#114354;
+    --martus_blue:#186079;
+    --martus_lightBlue:#1f7197;
     --martus_white:#e9f8f9;
+    --font_big:36px;
+    --font_medium: 24px;
+    --font_Small_medium: 15px;
+    --font_small: 11px;
+    --font_very_small: 8px;
 }
 
 body{
-    color: #e9f8f9;
+    font-family: 'SDSamliphopangche_Basic';
     display: grid;
     width: 100vw;
     height: 100vh;
+    background-color: white;
 }
 
-* p, h1, h2, h3{
+* p, h1, h2, h3, i{
     color: var(--martus_blue);
 }
 
