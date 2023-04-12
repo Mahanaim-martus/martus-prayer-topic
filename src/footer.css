@@ -1,0 +1,46 @@
+#martus_pray{
+    text-align: center;
+}
+#martus_pray img{
+    width: 100%;
+}
+#martus_pray h1{
+    font-family: 'ghanachoco';
+    font-size: 32px;
+    margin: 14% 0 12% 0;
+}
+
+#martus_pray .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+    bottom: 10px;
+    width: 35vw;
+    background-color: var(--martus_skyBlue);
+    border-radius: 3px;
+    padding: 1px 0;
+}
+
+#martus_pray .box h2{
+    font-size: 16px;
+    font-family: 'SDSamliphopangche_Outline';
+    width: 30vw;
+    background-color: white;
+    text-align: center;
+    padding: 5px 5px;
+}
+
+#martus_pray h3{
+    color: var(--martus_purple);
+    font-size: 13px;
+    padding: 12px 0;
+    line-height: 120%;
+}
+
+#martus_pray h3:last-child{
+    display: block;
+    margin-bottom: 12px;
+}
