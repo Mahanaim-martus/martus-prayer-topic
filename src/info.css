@@ -1,0 +1,191 @@
+.vision,.mission_work{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 4px 6px 4px;
+    border: 1px solid var(--martus_skyBlue);
+    border-radius: 10px;
+}
+
+.vision .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+    bottom: 10px;
+    width: 30vw;
+    background-color: var(--martus_skyBlue);
+    border-radius: 3px;
+    padding: 1px 0;
+}
+
+.vision .box h1{
+    width: 25vw;
+    background-color: white;
+    text-align: center;
+    padding: 2px;
+}
+
+.main_title{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width:100%;
+}
+
+.main_title img{
+    width: 60%;
+    margin: 3%;
+}
+
+.main_title h1{
+    text-align: center;
+    font-family: 'SDSamliphopangche_Basic';
+    font-size: 14px;
+    color: var(--martus_purple);
+}
+
+.main_title h1 span{
+    font-size: 10px;
+}
+
+.sub_title{
+    font-family: 'Cafe24Oneprettynight';
+    text-align: center;
+    font-size: 10px;
+    padding:  0 10px;
+}
+
+.sub_title h2, h3{
+    color: var(--martus_skyBlue);
+}
+
+.sub_title h2{
+    margin-top: 3%;
+    font-size: 12px;
+}
+
+.sub_title h3{
+    margin: 2% 0 5% 0;
+    font-size: 9px;
+}
+
+.vision .box h1, .mission_work h1{
+    font-family: 'SDSamliphopangche_Outline';
+    color: var(--martus_skyBlue);
+    font-size: 17px;
+}
+/* 선교 준비 활동 */
+.mission_work h1{
+    margin: 5% 0 2% 0;
+}
+.mission_work h1:last-child{
+    margin-bottom: 2%;
+}
+
+.mission_work ul{
+    padding-left: 0;
+    display: flex;
+    l
+    flex-wrap: wrap;
+}
+
+.mission_work_box{
+    display: flex;
+    align-items: center;
+}
+.mission_work_box_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.mission_work_box_mini{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 15%;
+    width: 100%;
+}
+.front_box, .back_box{
+    position: absolute;
+    height: 2.5vh;
+    width: 2.8vw;
+    border-radius: 3px; 
+}
+
+.front_box{
+    background-color: var(--martus_skyBlue);
+    top: 16%;
+    z-index: 10;
+}
+
+.back_box{
+    background-color: white;
+    border:  1px solid var(--martus_skyBlue);
+    right: 43%;
+    z-index: 1;
+}
+
+.mission_work_box_detail{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 10vh;
+    width: 30vw;
+}
+.front_main_box, .back_main_box{
+    position: absolute;
+    width: 23vw;
+    height: 8vh;
+    border-radius: 10px; 
+}
+.back_main_box{
+    right: 8.5%;
+    top: 5%; 
+    z-index: 5;
+    background-color: var(--martus_skyBlue);
+}
+
+.front_main_box{
+    color: var(--martus_skyBlue);
+    background-color: white;
+    border:  1px solid var(--martus_skyBlue);
+    z-index: 7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.front_main_box p{
+    font-family: 'SDSamliphopangche_Basic';
+    font-size: 14px;
+    color: var(--martus_skyBlue);
+}
+.front_main_box p span{
+    display: block;
+    margin-top: 3px;
+}
+
+.mission_work_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+    height: 30vh;
+}
+
+.mission_work_box p{
+    text-align: center;
+    padding: 8px 0;
+    font-size: 10px;
+}
+
+.mission_work_box img{
+    border-radius: 10px;
+    width: 20vw;
+    height: 12vh;
+    border: 0.5px solid var(--martus_skyBlue);
+}

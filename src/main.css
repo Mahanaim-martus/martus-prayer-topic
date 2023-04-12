@@ -29,5 +29,9 @@ body{
 }
 
 i{
-    margin-top: 20px;
+    margin-top: 0px;
+}
+
+ul{
+    list-style: none;
 }
